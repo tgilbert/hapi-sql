@@ -1,2 +1,3 @@
 # hapi-sql
-A sequelized plugin for hapi.js
+A sequelize plugin for hapi.js
+
