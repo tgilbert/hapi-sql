@@ -22,7 +22,7 @@ Defaults:
             force: false
         }
     }
-Additionally you can pass any other sequelize parameters
+Additionally you can pass any other sequelize parameters.
 
 ## Usage
 If you are adding models use the following `index.js` file in your models folder.
