@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "A sequelize plugin for hapi.js",
   "main": "index.js",
-  "directories": {
-    "test": "make test-cov"
-  },
   "scripts": {
     "test": "make test"
   },
