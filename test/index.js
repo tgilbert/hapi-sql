@@ -89,9 +89,9 @@ describe('hapi-sql', function() {
             register: require('..'),
             options: options
         }, function(err) {
-            //console.log(server.plugins['hapi-sql']);
+            expect(err).to.be.undefined();
             expect(server.plugins['hapi-sql'].database.sequelize).to.be.an.object();
-            expect(server.plugins['hapi-sql'].database.Sequelize).to.be.an.object();
+            expect(server.plugins['hapi-sql'].database.Sequelize).to.be.a.function();
             expect(server.plugins['hapi-sql'].database.models).to.be.an.object();
             done();
         });
