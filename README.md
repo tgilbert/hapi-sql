@@ -65,3 +65,9 @@ Models should be on their own file.
         });
     };
 Note the class method `associate()`.
+
+After registering the plugin you can assess sequelize(object), Sequelize(function), and db(models);
+
+    server.plugins['hapi-sql'].database.sequelize;
+    server.plugins['hapi-sql'].database.Sequelize;
+    server.plugins['hapi-sql'].database.models;
