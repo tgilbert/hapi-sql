@@ -1,6 +1,6 @@
 {
-  "name": "hapi-sql",
-  "version": "0.1.1",
+  "name": "hapi-sql-fork",
+  "version": "0.1.2",
   "description": "A sequelize plugin for hapi.js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lvegerano/hapi-sql.git"
+    "url": "https://github.com/tgilbert/hapi-sql.git"
   },
   "keywords": [
     "hapi",
@@ -25,9 +25,9 @@
   "author": "Luis Vegerano",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lvegerano/hapi-sql/issues"
+    "url": "https://github.com/tgilbert/hapi-sql/issues"
   },
-  "homepage": "https://github.com/lvegerano/hapi-sql",
+  "homepage": "https://github.com/tgilbert/hapi-sql",
   "dependencies": {
     "hoek": "^2.11.0",
     "mysql": "^2.5.4",
