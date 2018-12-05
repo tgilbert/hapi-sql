@@ -1,6 +1,6 @@
 {
   "name": "hapi-sql-fork",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A sequelize plugin for hapi.js",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "mssql",
     "orm"
   ],
-  "author": "Luis Vegerano",
+  "author": "Thomas Gilbert",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tgilbert/hapi-sql/issues"
